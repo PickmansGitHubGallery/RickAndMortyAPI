@@ -1,0 +1,50 @@
+.box-style{
+    border: 2px solid #8CC63F; /* Pickle Rick Green */
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #0033A0;
+    transition: all 0.3s;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for the lift effect */
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+h1{
+  text-align: center;
+  color: #00FF00;
+  text-decoration: underline;
+}
+p{
+  text-align: center;
+  color: #FFD700;
+}
+.box-style:hover {
+  transform: translate(0, -5px); /* Move the box up by 5 pixels on hover */
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3); /* Increase the shadow effect */
+}
+#title{
+  text-align: center;
+  color: #9400D3;
+}
+#next-button{
+    margin-left:1400px;
+}
+#previous-button{
+  margin-left: 12px;
+}
+.nav-Button {
+  background-color: #FFD700; /* Yellow */
+  color: #000; /* Black text color */
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+body{
+  background-image: url('rmBG.webp');
+  background-size: cover;
+  background-repeat: repeat;
+}
