@@ -75,7 +75,6 @@ function nextPage(){
     populate(number);
   }
 
-
 function previousPage(){
   if(number > 1){
     number--;
