@@ -72,7 +72,7 @@ function nextPage(){
   }
     const header = document.querySelector("header");
     header.innerHTML = "";
-    
+    populate(number);
   }
 
 
@@ -85,5 +85,6 @@ function previousPage(){
   }
   const header = document.querySelector("header");
     header.innerHTML = "";
+  populate(number);
 }
 populate(number);//Her kalder jeg populate funktionen så siden starter.
