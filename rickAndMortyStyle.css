@@ -48,3 +48,13 @@ body{
   background-size: cover;
   background-repeat: repeat;
 }
+.character-image {
+  display: block;
+  width: 150px; 
+  height: auto;
+  margin: auto; 
+}
+
+.box-style:hover {
+  
+}
