@@ -35,9 +35,9 @@ function udfyldPersonInfo(obj,int){
   gender.textContent = `Gender : ${obj.results[i].gender}`;
   status.textContent = `Status : ${obj.results[i].status}`;
   origin.textContent = `Origin : ${obj.results[i].origin.name}`;
-  //Jeg henter billede fra nedestående link "i" og imageNumber sørger for at de rigtige billeder 
-  //bliver sat sammen med de rigtige karaktere.  
-  image.src = 	`https://rickandmortyapi.com/api/character/avatar/${i + imageNumber}.jpeg`
+    
+  image.src = `https://rickandmortyapi.com/api/character/avatar/${obj.results[i].id}.jpeg`; // obj.result[i].id indeholder https://rickandmortyapi.com/api/character/avatar/1.jpeg
+  //image.src = 	`https://rickandmortyapi.com/api/character/avatar/${i+ imageNumber}.jpeg`; //Denne løsning har engang virket. Men det gør den ikke længere og jeg ved ikke hvorfor.
 
   //her tilføjes CSS linket til rickAndMortysStyle
   container.classList.add("box-style");
